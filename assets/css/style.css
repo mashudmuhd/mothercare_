@@ -1654,6 +1654,31 @@ section {
   }
 }
 
+
+.address {
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.address p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .address-card {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .address {
+      width: 80%;
+  }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
